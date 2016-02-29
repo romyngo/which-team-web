@@ -224,7 +224,7 @@
     border-radius: 50%;
     background: #fff;
     line-height: 2;
-    border: 5px solid rgba(107, 197, 225, 0.48);
+    border: 5px solid rgba(0, 177, 106, 0.5);
   }
   .social-icon a:active .fa,
   .social-icon a.active .fa,
