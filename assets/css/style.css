@@ -1199,7 +1199,7 @@ section.video {
 */
 
 .download {
-  background: url(../images/download_bg.jpg) no-repeat fixed;
+  background: url(../images/download_bg.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
