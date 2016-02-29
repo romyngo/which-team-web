@@ -131,8 +131,8 @@ ul, li {
   padding: 120px 0;
 }
 
-::-moz-selection { background: #A9D0F5; color: #5F5A5A }
-     ::selection { background: #A9D0F5; color: #5F5A5A }
+::-moz-selection { background: #00B16A; color: #fff }
+     ::selection { background: #00B16A; color: #fff }
 
 /*------ For solid background color-----*/
 section.solid-bg, #footer.solid-bg {
@@ -250,7 +250,7 @@ h6 {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #F7CA18;
+    border-top-color: #00B16A;
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     z-index: 1001;
@@ -265,7 +265,7 @@ h6 {
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #00B16A;
+    border-top-color: #F7CA18;
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -865,9 +865,9 @@ section.video {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
-  -webkit-box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
-  -moz-box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
+  box-shadow: 0px 0px 0px 20px rgba(0, 177, 106, 0.5);
+  -webkit-box-shadow: 0px 0px 0px 20px rgba(0, 177, 106, 0.5);
+  -moz-box-shadow: 0px 0px 0px 20px rgba(0, 177, 106, 0.5);
   display: inline-block;
   margin-bottom: 40px;
   -webkit-transition: all ease-in .4s;
@@ -876,9 +876,9 @@ section.video {
   -ms-transition: all ease-in .4s;
 }
 .play:hover {
-          box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
-  -webkit-box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
-     -moz-box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
+          box-shadow: 0px 0px 15px 20px rgba(247, 202, 24, 0.5);
+  -webkit-box-shadow: 0px 0px 15px 20px rgba(247, 202, 24, 0.5);
+     -moz-box-shadow: 0px 0px 15px 20px rgba(247, 202, 24, 0.5);
 }
 
 /*----------norm-img Version--------*/
@@ -1144,7 +1144,7 @@ section.video {
   margin-bottom: 20px;
 }
 .price-header {
-  background: #0aabe1;
+  background: #00B16A;
   padding:20px;
   text-align: center;
   height: 180px;
@@ -1152,7 +1152,7 @@ section.video {
 }
 .price-block:hover .price-header,
 .price-block.active .price-header {
-  background: #048bb9;
+  background: #00B16A;
 }
 .price-header h3 {
   font-family: 'Dosis', sans-serif;
@@ -1164,7 +1164,7 @@ section.video {
 }
 .price-header .fa {
   font-size: 50px;
-  color: #0aabe1;
+  color: #00B16A;
   line-height: 1.8;
   width: 155px;
   height:155px;
@@ -1184,7 +1184,7 @@ section.video {
 }
 .price {
   font-family: 'Dosis', sans-serif;
-  color: #0aabe1;
+  color: #00B16A;
   font-size: 20px;
 }
 .month {
@@ -1532,6 +1532,12 @@ section.contact > .container {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .social-icon {
   margin-bottom: 60px;
