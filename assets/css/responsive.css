@@ -218,7 +218,7 @@
     }
    .social-icon .fa {
     font-size: 18px;
-    color: #0aabe1;
+    color: #00B16A;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -240,7 +240,7 @@
     padding: 7px 20px;
   }  
   .contact .nav-tabs li .fa {
-    background: #0aabe1;
+    background: #00B16A;
     border-radius: 50%;
     box-shadow: 0 0 0 10px rgb(255, 255, 255);
     color: #fff;
@@ -259,7 +259,7 @@
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.75);
     -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.75);
     -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.75);
-    color: #0aabe1;
+    color: #00B16A;
   }
   .contact .contact-info h2 {
     margin-bottom: 20px;
@@ -305,9 +305,9 @@
     background-size: 50% 50%;
     -webkit-background-size: 50% 50%;
     -o-background-size: 50% 50%;
-    box-shadow: 0px 0px 0px 10px rgba(0, 167, 221, 0.5);
-    -webkit-box-shadow: 0px 0px 0px 10px rgba(0, 167, 221, 0.5);
-    -moz-box-shadow: 0px 0px 0px 10px rgba(0, 167, 221, 0.5);
+    box-shadow: 0px 0px 0px 10px rgba(0, 177, 106, 0.5);
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(0, 177, 106, 0.5);
+    -moz-box-shadow: 0px 0px 0px 10px rgba(0, 177, 106, 0.5);
    }
    .contact .nav-tabs li .fa {
       width: 35px;
@@ -390,9 +390,9 @@ Maintaining the lower vieport response for video section
     background-size: 50% 50%;
     -webkit-background-size: 50% 50%;
     -o-background-size: 50% 50%;
-    box-shadow: 0px 0px 0px 10px rgba(0, 167, 221, 0.5);
-    -webkit-box-shadow: 0px 0px 0px 10px rgba(0, 167, 221, 0.5);
-    -moz-box-shadow: 0px 0px 0px 10px rgba(0, 167, 221, 0.5);
+    box-shadow: 0px 0px 0px 10px rgba(0, 177, 106, 0.5);
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(0, 177, 106, 0.5);
+    -moz-box-shadow: 0px 0px 0px 10px rgba(0, 177, 106, 0.5);
    }
 }
 
