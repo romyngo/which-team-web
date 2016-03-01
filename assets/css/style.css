@@ -61,10 +61,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 a {
-  color: #00B16A;
+  color: #E74C3C;
 }
 a:hover {
-  color: #007a49;
+  color: #d52c1a;
 }
 ul, li {
   list-style: none;
@@ -992,6 +992,7 @@ section.video {
 .screenshot-block .caption a {
   display: inline-block;
   vertical-align: middle;
+  color: #00B16A;
 }
 .screenshot-block .caption .fa {
   font-size: 30px;
