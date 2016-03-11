@@ -946,14 +946,14 @@ section.video {
 }
 .owl-theme .owl-controls .owl-buttons div.owl-prev {
   left: 0px;
-  background: #fff url(../images/left-arrow.png) no-repeat 0px 5px;
+  background: transparent url(../images/left-arrow.png) no-repeat 0px 5px;
 }
 .owl-theme .owl-controls .owl-buttons div.owl-prev:hover {
   background: rgba(255, 255, 255, 0.4) url(../images/left-arrow-hover.png) no-repeat 0px 5px;
 }
 .owl-theme .owl-controls .owl-buttons div.owl-next {
   right: 0px;
-  background: #fff url(../images/right-arrow.png) no-repeat 0px 5px;
+  background: transparent url(../images/right-arrow.png) no-repeat 0px 5px;
 }
 .owl-theme .owl-controls .owl-buttons div.owl-next:hover {
   background: rgba(255, 255, 255, 0.4) url(../images/right-arrow-hover.png) no-repeat 0px 5px;
