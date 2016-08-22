@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>WhichTeam App | Download</title>
+    <meta property="og:image" content="http://which-team.com/assets/images/screenshots/preview.png">
+    <meta name="description" content="A hub for sports tipsters, tips and statistics"></head>
+<body>
+<p style="text-align: center">Redirecting to download page ...</p>
+</body>
+<script type="text/javascript">
+    var isMobile = {
+        Windows: function() {
+            return /IEMobile/i.test(navigator.userAgent);
+        },
+        Android: function() {
+            return /Android/i.test(navigator.userAgent);
+        },
+        BlackBerry: function() {
+            return /BlackBerry/i.test(navigator.userAgent);
+        },
+        iOS: function() {
+            return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        },
+        any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+        }
+    };
+
+    if (isMobile.Android()) {
+        window.location.replace("https://play.google.com/store/apps/details?id=com.whichteam.m&referrer=utm_source%3DThailand");
+    } else if (isMobile.iOS()) {
+        window.location.replace("https://itunes.apple.com/app/apple-store/id1111611718?pt=118168433&ct=Thailand&mt=8");
+    } else {
+        // point to K James account
+        window.location.replace("http://m.which-team.com");
+    }
+</script>
+</html>
